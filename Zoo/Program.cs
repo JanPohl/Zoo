@@ -16,7 +16,7 @@ class Program
         Console.WriteLine("Willkommen im Zoo: " + neuerZoo.ZooName);
         Console.ForegroundColor = ConsoleColor.White;
 
-        Console.WriteLine("Die Tiere werden produziert...");
+        Console.WriteLine("Die Tiere werden in den Zoo eingesperrt...");
         
         // Zehn Schweine werden erstellt
         for (int i = 0; i < 10; i++)
@@ -41,7 +41,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("Welches Tier möchtest du streicheln?");
+            Console.WriteLine("Welches Tier möchtest du am liebsten streicheln?");
             string nameVonDemSchweinDasGestreicheltWerdenSoll = Console.ReadLine();
 
             if (nameVonDemSchweinDasGestreicheltWerdenSoll == "stop")
