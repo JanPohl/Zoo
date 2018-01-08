@@ -13,7 +13,7 @@ class Program
 
         Zoo neuerZoo = new Zoo("Tophs Zoo");
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Willkommen im Zoo: " + neuerZoo.ZooName);
+        Console.WriteLine("Herzlich Willkommen im Zoo: " + neuerZoo.ZooName);
         Console.ForegroundColor = ConsoleColor.White;
 
         Console.WriteLine("Die Tiere werden in den Zoo eingesperrt...");
